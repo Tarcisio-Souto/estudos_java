@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-/* EXERCÍCIOS SOBRE TIPOS, CONDIÇÕES, TRY E LOOPS */
+/* EXERCÍCIOS SOBRE TIPOS E CONDIÇÕES */
 
 public class Exercicios {
 
