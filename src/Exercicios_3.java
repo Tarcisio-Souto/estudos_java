@@ -1,6 +1,7 @@
 import javafx.scene.control.RadioMenuItem;
 
 import javax.swing.*;
+import java.util.ArrayList;
 import java.util.Random;
 
 public class Exercicios_3 {
@@ -13,7 +14,10 @@ public class Exercicios_3 {
         //ArrayImprimePares();
         //ArrayDobro();
         //System.out.println(ArrayMaiorMenor());
-        SomaVetores();
+        //SomaVetores();
+        //System.out.println(VetorNomes());
+        System.out.println(VetorNumeros());
+
     }
 
     /* Crie um programa que leia 5 números inteiros e armazene em um array. Depois, mostre todos os números digitados. */
@@ -150,13 +154,67 @@ public class Exercicios_3 {
 
     }
 
+    /* Preencha um vetor com 7 nomes de pessoas e, em seguida, leia um nome e informe se ele está ou não no vetor. */
+
+    public static String VetorNomes()
+    {
+        String[] nomes = new String[2];
+        String nome;
+        String nomeInput;
+        String mensagem = "";
+
+        for (int i = 0; i < nomes.length; i++)
+        {
+            nome = JOptionPane.showInputDialog("Insira um nome: ");
+            nomes[i] = nome;
+        }
+
+        nomeInput = JOptionPane.showInputDialog("Insira um nome para pesquisar: ");
+
+        for (String nomeAux : nomes)
+        {
+            if (nomeInput.equals(nomeAux))
+            {
+                mensagem = "O nome " + nomeInput + " está no vetor.";
+            } else
+            {
+                mensagem = "O nome " + nomeInput + " não está no vetor.";
+            }
+        }
+
+        return mensagem;
+
+    }
+
+    /* Faça um método que leia os números digitados pelo usuário até que ele decida não mais inserir.
+       Em seguida, diga quantos números foram digitados, mostre a soma deles e a média
+     */
+
+    public static String VetorNumeros()
+    {
+        ArrayList<Integer> numbers = new ArrayList<Integer>();
+        String confirmar;
+        int num;
+        int soma = 0;
+        int count = 0;
+        String mensagem;
+
+        confirmar = JOptionPane.showInputDialog("Deseja inserir algum número (S/N)?");
+        do
+        {
+            num = Integer.parseInt(JOptionPane.showInputDialog("Insira o número: "));
+            soma += num;
+            count++;
+            numbers.add(num);
+            confirmar = JOptionPane.showInputDialog("Deseja inserir algum número (S/N)?");
+        } while (confirmar.equalsIgnoreCase("S"));
+
+        mensagem = "Qtd. Números: " + count + "\nSoma: " + soma + "\nMédia: " + (soma / count);
+
+        return mensagem;
 
 
-
-
-
-
-
+    }
 
 
 
