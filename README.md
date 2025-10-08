@@ -83,8 +83,7 @@ Consolidar tudo o que aprendo durante minha capacitação em **desenvolvimento b
 
 ## 🧑‍💻 Sobre mim
 
-Sou um desenvolvedor em formação com foco em **Java para Web**, atualmente estudando para atuar no **backend do ERP Sankhya**.  
-Meu objetivo é dominar o ecossistema Java corporativo e contribuir com soluções eficientes, bem estruturadas e escaláveis.
+Sou um desenvolvedor em formação com foco atual em **Java para Web**, atualmente estudando para atuar no **backend do ERP Sankhya**. Meu objetivo é dominar o ecossistema Java corporativo e contribuir com soluções eficientes, bem estruturadas e escaláveis.
 
 > “Aprendendo um import de cada vez.” 🧩  
 
