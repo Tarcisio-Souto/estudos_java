@@ -1,3 +1,5 @@
+package fundamentos_java;
+
 public class Exercicios_5 {
 
     /* EXERCÍCIOS SOBRE Orientação a objetos (classes, objetos, herança, polimorfismo) */

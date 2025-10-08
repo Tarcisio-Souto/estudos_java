@@ -1,5 +1,6 @@
+package fundamentos_java;
+
 import javax.swing.*;
-import java.lang.reflect.Array;
 
 
 public class Exercicios_6_revisao

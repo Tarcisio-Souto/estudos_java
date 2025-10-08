@@ -1,3 +1,5 @@
+package fundamentos_java;
+
 import javax.swing.*;
 
 /* EXERCÍCIOS SOBRE TIPOS E CONDIÇÕES */
