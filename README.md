@@ -22,22 +22,29 @@ Consolidar tudo o que aprendo durante minha capacitação em **desenvolvimento b
 
 ---
 
-## 🧠 Estrutura do repositório
+### 🧠 Estrutura do repositório
 
+```bash
 📦 estudos_java/
-┣ 📁 fundamentos_java/
-┃ ┣ 🧩 variaveis/
-┃ ┣ 🔁 estruturas_controle/
-┃ ┗ 🧮 poo/
-┣ 📁 java_avancado/
-┃ ┣ 💾 colecoes_generics/
-┃ ┣ ⚙️ threads/
-┃ ┗ 🌐 io_streams/
-┣ 📁 backend_sankhya/
-┃ ┣ 🧰 java_ee/
-┃ ┣ 🏗️ jboss_as/
-┃ ┗ 🗄️ jdbc_jpa/
-┗ README.md
+ ┣ 📁 fundamentos_java/
+ ┃ ┣ 🧩 variaveis/
+ ┃ ┣ 🔁 estruturas_controle/
+ ┃ ┗ 🧮 poo/
+ ┣ 📁 java_intermediario/
+ ┃ ┣ 📚 excecoes/
+ ┃ ┣ 💾 arquivos_io/
+ ┃ ┣ 🧩 colecoes/
+ ┃ ┗ 🧠 enums_wrappers/
+ ┣ 📁 java_avancado/
+ ┃ ┣ ⚙️ threads/
+ ┃ ┣ 💻 streams_lambda/
+ ┃ ┗ 🧬 reflexao/
+ ┣ 📁 backend_sankhya/
+ ┃ ┣ 🧰 java_ee/
+ ┃ ┣ 🏗️ jboss_as/
+ ┃ ┗ 🗄️ jdbc_jpa/
+ ┗ README.md
+```
 
 
 ---
